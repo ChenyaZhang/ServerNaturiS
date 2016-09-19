@@ -1,0 +1,21 @@
+{
+  "name": "server_naturis",
+  "version": "1.0.0",
+  "description": "Node.js + Mongoose Server for NaturiS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Chenya Zhang",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "connect-form": "^0.2.1",
+    "express": "^4.14.0",
+    "kerberos": "0.0.21",
+    "mongodb": "~2.0",
+    "mongoose": "^4.5.9",
+    "multer": "^1.2.0",
+    "multiparty": "^4.1.2"
+  }
+}
