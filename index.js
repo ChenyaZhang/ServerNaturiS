@@ -13,7 +13,7 @@ var fs = require('fs');
 var User = require('./models/user'); // if our user.js file is at app/models/user.js
 
 //Lets connect to our database using the DB server URL.
-mongoose.connect('mongodb://localhost:27017/server_naturis');
+mongoose.connect('mongodb://Baobao:bibibi@ec2-54-163-207-173.compute-1.amazonaws.com:27017/brandEasy');
 
 // configure app to use bodyParser()
 // this will let us get the data from a POST
